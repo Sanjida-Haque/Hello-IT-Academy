@@ -1,0 +1,353 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-left: 100px;
+}
+body{
+    background-color: rgb(1, 1, 24);
+}
+/* ============================ Navbar Section Start ============================ */
+.nav-flex{
+    display: flex;
+    gap: 250px;
+    padding: 20px;
+}
+.nav-logo h1{
+    font-size: 35px;
+    color: #ffffff;
+}
+nav ul{
+    display: flex;
+    gap: 60px;
+    padding: 10px;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #f704be;
+}
+.nav-right{
+     margin-top: 10px;
+}
+.nav-right a{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid #f704be;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+}
+.nav-right a:hover{
+    background-color: #f704be;
+    border:none;
+}
+/* ============================ Navbar Section End ============================ */
+
+/* ============================ Banner Section Start ============================ */
+.Banner-flex{
+    display: flex;
+    gap: 80px;
+}
+.Banner-left h1{
+    width: 480px;
+    font-size: 80px;
+    padding: 150px 0px 20px 0px;
+    color: #ffffff;
+}
+.Banner-left p{
+    width: 640px;
+    font-size: 20px;
+    padding-bottom: 60px;
+    color: #ffffff;
+}
+.Banner-left a{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #f704be;
+    text-decoration: none;
+    padding: 20px 50px 20px 50px;
+    border: none;
+    border-radius: 20px;
+
+}
+.Banner-left a:hover{
+    color: #f704be;
+    background-color: #ffffff;
+}
+.Banner-img{
+    width: 500px;
+    height: 550px;
+    margin: 50px 0px 20px 0px;
+}
+/* ============================ Banner Section End ============================ */
+
+/* ============================ Course Section Start ============================ */
+.Courses-Sec{
+    width: 100%;
+}
+.Courses-Sec h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 100px 0px 10px 460px;
+}
+.Course-box h2{
+    font-size: 60px;
+    font-weight: bold;
+    color: #f704be;
+    padding: 40px 0px 10px 0px;
+
+}
+.course-boxflex{
+    display: flex;
+    gap: 40px;
+    padding-top: 5px;
+    padding-bottom: 40px;
+}
+.course-boxitem{
+    height: 450px;
+    border: none;
+    border-radius: 5px;
+    /* background-color: rgb(0, 128, 255); */
+    background: linear-gradient(33deg, #081848 0%, #081848 0%, #081848 0.01%, #2E5CDF 100%);
+    border-radius: 14px;
+}
+.course-boxitem h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px 10px 10px 20px;
+}
+/* #f704be #04b2f7 */
+.course-boxitem h4{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 0px 0px 10px 20px;
+}
+.course-boxitem p{
+    font-size: 25px;
+    color: #f704be;
+    padding: 0px 0px 35px 20px;
+}
+.course-boxitem a{
+    font-size: 25px;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #04b2f7;
+    margin-left: 20px;
+    
+}
+.course-boxitem a:hover{
+    border: none;
+    color: #04b2f7;
+    background-color: #ffffff;
+}
+.course-boxitem img{
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+}
+/* ============================ Banner Section End ============================ */
+
+/* ============================ Story Section Start ============================ */
+.Story-Sec{
+    width: 100%;
+}
+.Story-Sec h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 100px 0px 60px 460px;
+}
+.Story-flex{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+.Story-box1{
+    width: 400px;
+    background-color: rgb(68, 1, 65);
+    border-radius: 10px;
+}
+.Story-box2{
+    width: 400px;
+    background-color: rgb(1, 68, 52);
+    border-radius: 10px;
+}
+.Story-box3{
+    width: 400px;
+    background-color: rgb(249, 150, 1);
+    border-radius: 10px;
+}
+.Story-box1 p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 20px 20px 20px 20px;
+}
+.Story-box2 p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 20px 20px 20px 20px;
+}
+.Story-box3 p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 20px 20px 20px 20px;
+}
+.storybox-flex{
+    display: flex;
+    gap: 10px;
+    padding: 20px 20px 20px 20px;
+}
+.Storybox-text h2{
+    font-size: 25px;
+    padding: 10px 20px 0px 20px;
+    color: #ffffff;
+
+}
+.Storybox-text h3{
+    font-size: 20px;
+    padding: 5px 10px 0px 21px;
+    color: #ffffff;
+
+}
+.Storybox-text h4{
+    font-size: 20px;
+    padding: 5px 10px 0px 21px;
+    color: #ffffff;
+
+}
+.storybox-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.Story-Sec a{
+    font-size: 20px;
+    padding: 20px 40px 20px 40px;
+    color: #000000;
+    text-decoration: none;
+    background-color: orangered;
+    border-radius: 5px;
+    margin: 100px 0px 50px 600px;
+}
+.Story-Sec a:hover{
+    background-color: rgb(190, 58, 10);
+}
+/* ============================ Story Section End ============================ */
+
+/* ============================ Mission Section Start ============================ */
+.Mission-Sec{
+    width: 100%;
+}
+.Mission-Sec h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 100px 0px 60px 460px;
+
+}
+.Mission-flex{
+    display: flex;
+    gap: 40px;
+}
+.Mission-right h3{
+    width: 550px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 0px 0px 30px 10px;
+}
+.Mission-right span{
+    color: #f704be;
+}
+.Mission-img{
+    width: 600px;
+    height: 440px;
+    border-radius: 15px;
+
+}
+/* ============================ Mission Section End ============================ */
+
+/* ============================ Footer Section Start ============================ */
+.Footer-Sec{
+    height: 350px;
+    background-color: rgb(3, 3, 42);
+    margin-top: 60px;
+}
+.Footer-flex{
+    display: flex;
+    gap: 300px;
+    padding-top: 60px;
+}
+.Footer-left{
+    width: 330px;
+}
+.Footer-left h2{
+    font-size: 30px;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+.Footer-left p{
+    font-size: 25px;
+    color: #ffffff;
+   
+}
+.Footer-middle{
+    width: 230px;
+}
+
+.Footer-middle h2{
+    font-size: 30px;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+.Footer-middle a{
+    font-size: 20px;
+    display: flex;
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 5px;
+}
+.Footer-right h2{
+    font-size: 3opx;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+.Footer-social{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+.social-icon{
+    color: #ffffff;
+}
+/* ============================ Footer Section End ============================ */
+@media screen and (max-width:480px){
+    nav{
+        flex-direction: column;
+        padding: 10px 20px 20px 100px;
+    }
+    nav ul li a{
+        background-color: #f704be;
+     }
+}
